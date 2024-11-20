@@ -24,9 +24,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 collections:
   events:
     output: true # makes sure pages are output as html files
-    layout: event # the layout for the pages to use
+    layout: 'event' # the layout for the pages to use
     metadata:
-      source: events.csv # path to the metadata file within `_data`
+      source: 'events.csv' # path to the metadata file within `_data`
 
 
 # Build settings
